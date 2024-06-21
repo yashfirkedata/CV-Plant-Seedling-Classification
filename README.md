@@ -1,5 +1,12 @@
 # CV-Plant-Seedling-Classification
-Computer Vision project to build an image classifier which will classify the images of plant seedlings.
+Recognize, identify and classify plant images using CNN and image recognition algorithms. The goal of the project is to create a classifier capable of determining a plant's species from a photo.
+
+-- Architecure add krna hai 
+-- web app deploy krni hai 
+-- Tasks performed 
+-- model wise
+-- how to setup bhi likhna hai 
+
 
 Dataset: Cropped Plants V2
 
