@@ -1,6 +1,5 @@
 # CV-Plant-Seedling-Classification
-
-Recognize, identify, and classify plant images using CNN and image recognition algorithms. The goal of the project is to create a classifier capable of determining a plant's species from a photo.
+```🏥Recognize, identify, and classify plant images using CNN and image recognition algorithms. The goal of the project is to create a classifier capable of determining a plant's species from a photo.```
 
 ## Classes
 - Black-grass
@@ -24,7 +23,42 @@ Cropped Plants V2
 ### Sample Data
 ![Sample Data](https://github.com/yashfirkedata/CV-Plant-Seedling-Classification/blob/2876fc20d56b56876332f0444238369c47b81a93/model_images/sample_data.png)
 
-## Tasks Performed
+# Setup Instructions
+
+### Step 1: Clone the Repository
+```bash
+git clone https://github.com/yashfirkedata/CV-Plant-Seedling-Classification.git
+cd CV-Plant-Seedling-Classification
+```
+
+### Step 2: Download the Model
+Download the model file from `Model/model.txt` and place it in the `Model/` directory.
+
+### Step 3: Create a Virtual Environment
+
+#### For Windows:
+```bash
+python -m venv venv
+venv\Scripts\activate
+```
+
+#### For Linux:
+```bash
+python3 -m venv venv
+source venv/bin/activate
+```
+
+### Step 4: Install Requirements
+```bash
+pip install -r requirements.txt
+```
+
+### Step 5: Run the Streamlit App
+```bash
+streamlit run app.py
+```
+
+# Tasks Performed
 1. Data Exploration
 2. Model 1: Baseline (mini VGG like structure)
 3. Model 2: Tuning Baseline Addressing Overfitting
@@ -55,3 +89,39 @@ Cropped Plants V2
 ![Web App Image 2](https://github.com/yashfirkedata/CV-Plant-Seedling-Classification/blob/2876fc20d56b56876332f0444238369c47b81a93/web_app_images/img2.jpg)
 ![Web App Image 1](https://github.com/yashfirkedata/CV-Plant-Seedling-Classification/blob/2876fc20d56b56876332f0444238369c47b81a93/web_app_images/img1.jpg)
 ![Web App Image 3](https://github.com/yashfirkedata/CV-Plant-Seedling-Classification/blob/2876fc20d56b56876332f0444238369c47b81a93/web_app_images/img3.jpg)
+
+
+# Setup Instructions
+
+### Step 1: Clone the Repository
+```bash
+git clone https://github.com/yashfirkedata/CV-Plant-Seedling-Classification.git
+cd CV-Plant-Seedling-Classification
+```
+
+### Step 2: Download the Model
+Download the model file from `Model/model.txt` and place it in the `Model/` directory.
+
+### Step 3: Create a Virtual Environment
+
+#### For Windows:
+```bash
+python -m venv venv
+venv\Scripts\activate
+```
+
+#### For Linux:
+```bash
+python3 -m venv venv
+source venv/bin/activate
+```
+
+### Step 4: Install Requirements
+```bash
+pip install -r requirements.txt
+```
+
+### Step 5: Run the Streamlit App
+```bash
+streamlit run app.py
+```
