@@ -30,7 +30,7 @@ file = st.file_uploader("Please upload an image file (JPEG/PNG)", type=["jpg", "
 if file is not None:
     # Display uploaded image
     img = Image.open(file)
-    st.image(img, caption="Uploaded Image", use_column_width=True)
+    st.image(img, caption="Uploaded Image", width = 300)#use_column_width=True)
 
     # Preprocess the image
     image_data = image.img_to_array(img)
